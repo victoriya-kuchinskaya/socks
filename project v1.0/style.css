@@ -1,0 +1,58 @@
+body {
+    background: url(pictures/1.jpg);
+    outline-color:#000000;
+}
+h2 {
+    color: #000000;
+    text-align:  center;
+    font-family: Verdana;
+}
+p{
+    font-family: Verdana;
+}
+.stripe-head {
+    width:500px;
+    border-radius: 20px;
+    background: #4BB441;
+    padding: 1px 1px 1px 1px;
+    margin: auto auto 30px auto;
+}
+.stripe {
+    /*position: relative;*/
+    border-radius: 20px;
+    background: #4BB441;
+    padding: 20px 20px 20px 20px;
+    margin: 30px;
+    float:right;
+}
+.horizontal-menu, .horizontal-menu li{
+  margin:auto;
+  padding:2px 50px 2px;
+  font-family: Verdana;
+}
+.horizontal-menu{
+  list-style:none;
+  color:#fff;
+  text-align:center;
+  background-color:#4BB441;
+  /*width:1300px;
+  margin:auto;*/
+}
+.horizontal-menu li{
+  display:inline-block;
+ /* padding:10px 20px 10px;*/
+/*margin: 10px 20px 20px;*/
+}
+.horizontal-menu li a {
+  display: block;
+  /*float:left;*/
+  color:#fff;
+  background-color:#4BB441;
+  /*text-align:center;*/
+  /*padding:1px 50px 1px;*/
+  text-decoration: none;
+}	
+.horizontal-menu a:hover {
+  color:#000000;
+  /*background-color: #185EAF;*/
+}
